@@ -171,12 +171,14 @@
     <ClCompile Include="..\dependences\imgui-docking\imgui\imgui_widgets.cpp" />
     <ClCompile Include="..\dependences\stb_image\src\stb_image.cpp" />
     <ClCompile Include="..\dependences\stb_truetype\src\stb_truetype.cpp" />
+    <ClCompile Include="src\game\SnakeGame.cpp" />
     <ClCompile Include="src\engine\Shader.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\engine\debug\openglErrorReporting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\engine\Shader.h" />
+    <ClInclude Include="include\game\SnakeGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

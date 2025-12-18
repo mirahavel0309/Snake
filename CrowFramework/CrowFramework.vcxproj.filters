@@ -60,9 +60,15 @@
     <ClCompile Include="src\engine\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\game\SnakeGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\engine\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\SnakeGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
